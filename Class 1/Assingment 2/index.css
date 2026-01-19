@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'waldenburg';
+  src: url('./KMR-Waldenburg-Buch-latin.1f7863d3c4317f3d.woff2') format('woff2');
+}
+body {
+  font-family: 'waldenburg';
+}
+
+.textbox{
+    padding: 13px;
+    width: 400px;
+    border: 1.5px solid rgb(194, 183, 183);
+    border-radius: 10px;
+    margin: 7px 0px 15px ;
+}
+.button{
+    padding: 5px;
+    height: 40px;
+    width: 80px;
+    border: 1.5px solid rgb(194, 183, 183);
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size:15px;
+}
+.button:hover{
+    background-color: gray;
+    transition-duration: 60ms;
+
+}
+.logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;   /* THIS controls spacing */
+}
+
+.logos img {
+  height: 30px;
+  width: auto;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.line span{
+    background: #cfd6e0;
+    width:60px;
+    height: 3px;
+    border-radius: 2px;
+    
+}
+.line span:first-child{
+    background-color: #000;
+    margin-left: 110px;
+}
